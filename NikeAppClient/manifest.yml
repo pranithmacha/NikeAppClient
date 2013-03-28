@@ -1,0 +1,16 @@
+--- 
+applications: 
+  .: 
+    mem: 64M
+    infra: aws
+    command: 
+    name: nikeapp
+    instances: 1
+    runtime: python2
+    framework: 
+      info: 
+        exec: 
+        mem: 64M
+        description: Standalone Application
+      name: standalone
+    url: 
